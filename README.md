@@ -1,6 +1,6 @@
 What to Learn within these five months: November 28, 2025 - March 15, 2026
-
-1. DevOps Bootcamp: Learn Linux & Become a Linux Sysadmin
+(**I) ZTM DevOps - Few Certificates**
+1. DevOps Bootcamp: Learn Linux & Become a Linux Sysadmin. Objectives:
     -  Everything you need to become a professional Linux Sysadmin and get hired
     - Master all of the key concepts and commands in Linux starting from scratch
     - Learn how to set up the Linux environment (installing both Ubuntu and CentOS on a virtual machine)
@@ -27,5 +27,5 @@ What to Learn within these five months: November 28, 2025 - March 15, 2026
 16. Read the Principles for Programmers
 17. Take Your Next Step - Take Career Path Quiz.
 
-18. PNPT
-19. Google Cybersecurity Certificate
+(**II) PNPT - TCM Security**
+(**III) Google Cybersecurity Cetificate**
