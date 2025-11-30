@@ -1,5 +1,5 @@
 What to Learn within these five months: November 28, 2025 - March 15, 2026
-(**I) ZTM DevOps - Few Certificates**
+**I ZTM DevOps - Few Certificates**
 1. DevOps Bootcamp: Learn Linux & Become a Linux Sysadmin. Objectives:
     -  Everything you need to become a professional Linux Sysadmin and get hired
     - Master all of the key concepts and commands in Linux starting from scratch
@@ -26,6 +26,107 @@ What to Learn within these five months: November 28, 2025 - March 15, 2026
 15. Learning to Learn [Efficient Learning]
 16. Read the Principles for Programmers
 17. Take Your Next Step - Take Career Path Quiz.
+
+(**II) NOTES**
+Objectives (What to learn): **Becoming a Linux SysAdmin, Linux Engineer**
+
+-Environment Setup
+
+-Linux Fundamentals (file systems, Account management, file permissions, process management)
+
+-Networking
+
+-Software Management
+
+-System Administration
+
+-Bash shell scripting
+
+-Docker
+
+-Linux Security
+
+-Web and DNS Servers
+
+-Ansible
+
+-IPFS (Interplanetary File System)
+
+-SSH and Public Key Authentication
+
+- **Linux Distribution/ Distro** - An OS made from a collection of software based on the linux kernel, and often a package management system.
+- Linux OS comprises of:
+    - Linux Kernel (core of the operating system) - provides an interface between the hardware, software and users.
+    - GNU shell utilities, terminal interfaces -
+    - Graphical desktop environment.
+- Some Os’s OpenWRT- embedded devices like routers, Linux Mint, Pop os, raspberry pi os
+- Check on linux distros on [**distrowatch.com](http://distrowatch.com)** especially for the popularity.
+- Most popular linux distros: Ubuntu (Free) or Redhat (Commercial - acquired by IBM). You can use AlmaLinux or Rocky Linux which are built on redhat.
+
+- Preference is Ubuntu since it works well as a server and a desktop OS.
+- Installing Ubuntu, and setting up everything. (Done)
+
+Terminals, Consoles, Shells and Commands
+
+**Terminal Emulator/Terminal:** A program that opens a window and allows us to write commands. e.g Gnome, console, emulator
+
+- allows us to access a system through a shell.
+
+**Shell/ Command Interpreter**: A program that takes commands from user and gives them to the OS kernel for execution.
+
+- Takes commands from user, checks whether they are syntactically correct.
+- Gets started when user logs in a console or starts a terminal.
+- In each terminal a shell opens and waits for commands.
+
+Example Shells:
+
+- Bash
+- Bourne Shell
+- C Shell
+- Korn Shell
+- Z Shell
+
+**Console**: Special type of terminal that starts if no GUI (Graphical User Interface) was installed.
+
+Linux Commands Structure (Has 100s of commands)
+
+- Getting help and man pages (manual pages)
+- **‘man ls’** - opens man page. type **‘h’** to get additional help, **‘q’** get out of screen, **‘q’** again to exit man program. ‘g’ get to the beginning of the man page e.t.c google the rest when needed.
+- You can also use: ‘help cd’ to find help or ls - - help
+- **‘ifocnfig’** - Used to display info about network interfaces and configure them. Used after installing net tools package i.e ‘sudo apt install net-tools’
+- How to **search for a command, feature or keyword** in all man pages **‘man -k ifconfig’** or **‘man -k copy files’**
+- To find out what does the option -a of the ls command do: **open man page of ls and write \-a**
+
+TAB Key
+
+- Used to complete the command automatically e.g **‘if’** is completed to **‘ifconfig’**
+- Press tab twice for it to display all the files with a specific name
+- Avoid white spaces and instead use tab completion.
+
+BASH shortcuts every Linux admin uses
+
+- **‘ctrl l’** or **‘clear’** - clears screen
+- **‘ctrl d’** or **‘exit’** - closes the bash shell
+- **‘ctrl a’** - moves cursor to the beginning of the line
+- **‘ctrl e’** - moves cursor to the end of the line
+- **‘ctrl u’** instead of backspace multiple times - deletes all x-ters  before the cursor by cutting and adding them to the clip board
+- **‘ctrl c’** - interrupt the long process going on in a terminal
+
+The Bash History
+
+- **‘.bash_history’** is the file that stores history of the commands a user used in his file.
+- commands stored in this file is controlled by ‘HISTFILESIZE’ i.e **‘echo HISTFILESIZE’**
+- **‘echo HISTSIZE’** - ****controls how many commands from your bash history will  be stored in the memory
+- **‘!17’ or from the bottom, ‘! -3’**- Helps to run a command from history
+- **‘!!’** - to run the previous command
+- ‘! command name: first letter’ - to find the command
+- **‘CTRL + R’** and start typing command - helps us find a previously used command (exit using control + G)
+- removing commands from history - **‘history -d ‘line number’**’
+- **‘history -c**’ - removes entire history
+
+Running Commands Without Living a Trace
+
+-
 
 (**II) PNPT - TCM Security**
 (**III) Google Cybersecurity Cetificate**
