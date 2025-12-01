@@ -90,17 +90,18 @@ Example Shells:
 
 Linux Commands Structure (Has 100s of commands)
 
-- Getting help and man pages (manual pages)
+Getting help and man pages (manual pages):
+
 - **‘man ls’** - opens man page. type **‘h’** to get additional help, **‘q’** get out of screen, **‘q’** again to exit man program. ‘g’ get to the beginning of the man page e.t.c google the rest when needed.
-- You can also use: ‘help cd’ to find help or ls - - help
-- **‘ifocnfig’** - Used to display info about network interfaces and configure them. Used after installing net tools package i.e ‘sudo apt install net-tools’
+- You can also use: **‘help cd’** to find help or **ls - - help**
+- **‘ifocnfig’** - Used to display info about network interfaces and configure them. Used after installing net tools package i.e **‘sudo apt install net-tools’**
 - How to **search for a command, feature or keyword** in all man pages **‘man -k ifconfig’** or **‘man -k copy files’**
-- To find out what does the option -a of the ls command do: **open man page of ls and write \-a**
+- To find out what does the option -a of the ls command do: **open man page of ls (’man ls’) and write ‘\-a’**
 
 TAB Key
 
 - Used to complete the command automatically e.g **‘if’** is completed to **‘ifconfig’**
-- Press tab twice for it to display all the files with a specific name
+- Press **tab twice** for it to display all the files with a specific name
 - Avoid white spaces and instead use tab completion.
 
 BASH shortcuts every Linux admin uses
@@ -126,6 +127,24 @@ The Bash History
 
 Running Commands Without Living a Trace
 
+- Leave a space before a command and the command will not appear in the history.
+- ‘HISTCONTROL’ - Avoids saving commands in history - to set it up, type: ‘echo HISTCONTROL’, then HISTCONTROL=ignoreboth
+
+Recording Date and Time for each line
+
+- To display timestamp in history file, set **‘HISTIMEFORMAT=%d/%m/%y %T’**
+- **‘HISTIMEFORMAT=%d/%m/%y %T’ >> .bashrc** - adding it to .bashrc file for it to be persistent after logging out.
+
+**root (super user or admin) vs non-privileged users**
+
+Different ways to gain super user rights in linux:
+
+- **‘sudo su’** - superuser do substitute user - sudo(ubuntu), wheel(CentOS)
+- Creating a new group as admin - **‘sudo groupadd myadmin’**
+- Create new user - **‘sudo useradd john’**
+- **‘sudo passwd root’** - used to change a password
+- **‘passwd student’** - changing user password in CentOS
+- **‘sudo - k’** - It invalidates your current sudo credentials, such that you have to enter your password again.
 -
 
 (**II) PNPT - TCM Security**
